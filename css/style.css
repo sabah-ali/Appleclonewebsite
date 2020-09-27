@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color:#f2f2f2;
+    line-height: 1.6;
+}
+
+a { 
+    text-decoration: none;
+    color:#2997ff;
+}
+
+
+
+
+/*MAIN NAVBAR*/
+.navbar{
+    width: 100%;
+    background-color:rgba(0,0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    height: 50px;
+    padding-top: 3px;
+    z-index: 10;
+}
+    
+.navbar-link{
+    list-style: none;
+}
+
+.hidden-nav { 
+    display: none; 
+    
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-items a {
+    color: #d3d3d3;;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.navbar-items a:hover {
+   color: #fff;
+}
+
+
+/*Contactless Banner */
+.contactless {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 12px;
+    color: rgba(0,0, 0, 0.8);
+}
+
+/*MAIN HEADING */
+
+.main-header{
+    color: #fff;
+    background: url(../Images/iphonese.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+ 
+   
+}
+
+
+.main-header .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    padding: 0 10px;
+  
+}
+
+.main-header .content h1 {
+    font-size:55px;
+
+}
+
+.main-header .content p {
+    font-size: 18px;
+    max-width: 600px;
+  
+}
+
+
+
+/*HEADING 2*/
+
+#heading-2, .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading-2 .content-2 h1 {
+    font-size:55px;
+
+}
+
+#heading-2 .content-2 p {
+    font-size: 18px;
+    max-width: 600px;
+  
+}
+
+#heading-2{
+    background: url(../Images/iphone11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    border: #f2f2f2 solid 8px;
+}
+
+/*HEADING 3*/
+
+#heading-3{
+    
+    background: url(../Images/Greyhound-Album-Artwork-cut.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+   
+}
+
+
+#heading-3 a {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+/*FLEX GRID ITEMS*/
+
+.flex-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(168,168, 168, 0.2) ;
+    width: 100%;
+}
+
+.col-1,.col-2, .col-3, .col-4,.col-5,.col-6{
+    flex: 1;
+    height: 65vh; ;
+    text-align: center;
+    color: black;
+    border: 5px solid #fff;
+    width: 32%;
+
+}
+
+.col-heading {
+    font-size: 36px;
+}
+
+
+.col-1{
+    background-image: url(../Images/apple-logo-grey-4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.col-1 .apple-letter {
+    display: flex;
+    max-width: 500px;
+    padding: 0 30px;
+    margin-left: 90px;
+}
+    
+
+.col-2{
+    background-image: url(../Images/ios-14-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+
+}
+
+.col-3 {
+    background-image: url(../Images/ipados-14.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.col-4{
+    background-image: url(../Images/macos_big_sur.jpg);
+    background-repeat: no-repeat;
+   background-position: 50% 60%;
+    background-color:rgba(248, 248, 248, 1);
+}
+
+.col-5{
+    background-image: url(../Images/magic-keyboard-for-ipad-pro-grey.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    
+
+.col-6{
+    background-image: url(../Images/apple\ uni\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.col-6 .apple-uni {
+    max-width: 300px;
+    padding: 0 20px;
+    margin-left: 190px;
+}
+/* DISCLAIMER */
+
+#disclaimer {
+display: block;
+   margin-left: 240px;
+   margin-right: 240px;
+   color: #999999;
+   font-size: 12px; 
+}
+
+#disclaimer li {
+    list-style: none;
+    margin: 0 0 10;  
+}
+
+
+/* FOOTER*/
+#footer {
+    display: block;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.main-footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #f2f2f2;
+   
+    
+  }
+.main-footer, .col {
+    float: left;
+    padding: 11px 3px  12px;
+  }
+.main-footer, .col h1 {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: #000;
+    font-weight: normal;
+
+  }
+.main-footer, .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.main-footer, .col ul li {
+    color: #999999;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+}
+
+.main-footer ul li a {
+    color: #999999;
+}
+/* MAIN FOOTER HIDDEN ONLY SHOWN WHEN PAGE IS A CERTAIN WIDTH*/
+.mainfooter-hidden{
+    display: none;
+    
+}
+
+/* MINI FOOTER BELOW THE MAIN FOOTER*/
+  
+.mini-footer {
+    color:#999999;
+    
+}
+
+.text-muted{
+font-size: 12px;
+}
+
+
+.mini-footer ul {
+    list-style: none;
+    
+    
+}
+
+.mini-footer li {
+   position: relative;
+   float: left;
+   padding-left: 10px;
+   font-size: 16px;
+   
+   
+   
+}
+.mini-footer ul  a {
+    color:#999999;
+    font-size: 12px;
+}
+
+.mini-footer .uk-flag  {
+    border: none;
+   
+}
+
+.mini-footer .uk-flag img {
+    width: 8%;
+}
+
+
+
+  @media screen and (max-width: 900px) {
+    
+
+    .navbar{
+    width: 100%;
+    background-color:rgba(0,0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    height: 50px;
+    padding-top: 3px;
+    z-index: 10;
+}
+.navbar-items{
+    display: none;
+}
+.hidden-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 6px;
+     }  
+
+.hamburger{
+    padding-left: 10px;
+     }
+
+.shopping-bag{
+    padding-right: 10px;
+     }
+
+.main-header{
+    background: url(../Images/iphone-se-breakpoint.jpg);
+    background-color: rgba(0,0, 0, 0.9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    position: relative;
+}
+
+.flex-grid{
+ display: flex;
+ flex-direction: column;
+    }
+   
+.col-1,.col-2, .col-3, .col-4,.col-5,.col-6{
+    width: 100%;
+    }
+
+#disclaimer{
+    margin: 0;
+    padding: 10px;
+    width: 100% ;
+    
+}
+
+#footer{
+    padding: 10px;
+}
+.main-footer{
+   display: none;
+}
+
+.mainfooter-hidden {
+    display: block;
+    padding: 0;
+    width: 100%;
+    
+    
+}
+
+.mainfooter-hidden li {
+    
+   font-weight: normal;
+   font-size: 12px;
+   color:rgba(0,0, 0, 0.8);
+    list-style: none;
+    border-bottom: 1px solid #999999;
+}
+
+.mainfooter-hidden i {
+display: flex;
+
+justify-content: flex-end;
+
+}
+
+}
