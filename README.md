@@ -8,4 +8,4 @@ A clone of the Apple UK website created using HTML and CSS
 <p>Screen capture below show how the Apple UK website looked on the day it was cloned</p>
 <p> https://web.archive.org/web/20200721021217/https://www.apple.com/uk/</p>
 
-<
+
